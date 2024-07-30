@@ -1,0 +1,6 @@
+@media only screen and (max-width: 550px){
+    .home_body .Contact { /*Causes logo to float left which reduces hwo much screen the header takes.*/
+        float: left;
+        
+    }
+}
