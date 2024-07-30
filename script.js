@@ -21,12 +21,12 @@ function openMenu() {
 }
 
 function hide(sections2) {
-    for(let i = 0; i < sections2.length; i++) {
+    for(var i = 0; i < sections2.length; i++) {
         sections2[i].style.display="none";
     }
 
 }function show(sections2) {
-    for(let i = 0; i < sections2.length; i++) {
+    for(var i = 0; i < sections2.length; i++) {
         sections2[i].style.display="block";
     }
 }
