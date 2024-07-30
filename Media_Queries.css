@@ -1,0 +1,6 @@
+/* Queries for Phone */
+@media only screen and (max-width: 600px){
+    p.Logo {
+        font-size: 4em;
+    }    
+}
