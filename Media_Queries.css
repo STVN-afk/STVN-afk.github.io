@@ -1,14 +1,14 @@
 /* Queries for Phone */
 @media only screen and (max-width: 600px){
     p.Logo {
-        font-size: 4em;
+        font-size: 1.5em;
     }    
     .nav {
         display: none;
     }
 
     .intro {
-        font-size: 2.5em;
+        font-size: 2em;
     }
 
     .Current_Projects{
