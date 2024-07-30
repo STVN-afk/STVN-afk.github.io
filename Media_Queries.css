@@ -3,4 +3,11 @@
     p.Logo {
         font-size: 4em;
     }    
+    .nav {
+        display: none;
+    }
+
+    .intro {
+        font-size: 2.5em;
+    }
 }
