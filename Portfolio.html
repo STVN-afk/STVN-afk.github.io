@@ -7,6 +7,7 @@
     <meta name="author" content="Steve Van">
     <link rel= "stylesheet" type = "text/css" href ="styles.css">
     <link rel="stylesheet" type="text/css" href="Media_Queries.css">
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.css">
 
     <title> 
         Portfolio 
@@ -17,7 +18,19 @@
 <body>
     <header>
         <p class = "Logo">Steve Van</p>
-        <input type = "checkbox" name = "" class = "btn" /> 
+        
+        <i class="fa fa-bars menu-icon" onclick="openMenu()""></i>
+        <div id = "mobile_container">
+            <div id = "close" onclick = "closeMenu()">&#10133;</div>
+            <ul id = "mobile_menu">
+                <li><a href = "index.html"> Home </a></li>
+                <li><a href = "About_Me.html"> About Me </a></li>
+                <li><a href = "Portfolio.html" class = "active-page"> Portfolio </a></li>
+                <li><a href = "#"> Resume </a></li>
+            </ul>
+        </div>
+
+
         <div class = "nav">
             <ol>
                 <li><a href = "index.html"> Home </a></li>
@@ -27,3 +40,8 @@
             </ol>
         </div>
     </header>
+
+    <script src="script.js"></script>
+
+    </body>
+</html>

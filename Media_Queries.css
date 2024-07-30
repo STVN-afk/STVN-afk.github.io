@@ -15,4 +15,8 @@
     .Projects {
         grid-template-columns: 1fr;
     }
+
+    i.menu-icon {
+        display: flex;
+    }
 }
